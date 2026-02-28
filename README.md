@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # React + Vite Project
 
@@ -84,3 +85,7 @@ GitHub: https://github.com/Poovarasan-Y
 
 ## 📜 License
 This project is open source and available under the MIT License.
+=======
+# Profile-Card
+"Responsive digital profile card built with React and Vite, featuring personal information, projects, and contact details."
+>>>>>>> b6a1e053901485623268c30a8b138af83ab1bfda
