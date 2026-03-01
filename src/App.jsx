@@ -1,6 +1,6 @@
 import './App.css'
 
-import profilePic from '/MyProfile.jpeg'
+import profilePic from './assets/MyProfile.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
