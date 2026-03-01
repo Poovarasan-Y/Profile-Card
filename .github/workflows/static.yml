@@ -31,6 +31,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Debug info (before install)
+        run: |
+          echo "== ENV =="
+          node -v || true
+          npm -v || true
+          echo "== Workspace listing =="
+          pwd
+          ls -la || true
+          echo "== package.json =="
+          cat package.json || true
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -39,6 +49,12 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: List built files
+        run: |
+          echo "== dist preview =="
+          ls -la dist || true
+          echo "== dist index.html =="
+          sed -n '1,120p' dist/index.html || true
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
