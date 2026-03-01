@@ -1,7 +1,6 @@
 {
   "name": "profile-card",
   "private": true,
-  "homepage": "https://Poovarasan-Y.github.io/Profile-Card/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
