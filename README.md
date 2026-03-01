@@ -1,18 +1,17 @@
-<<<<<<< HEAD
-
 # React + Vite Project
 
-This project is a simple React application built using Vite. It provides a fast development environment with Hot Module Replacement (HMR) and optimized builds.
+This project is a simple React application built using Vite. It provides a fast development environment with Hot Module Replacement (HMR) and optimized builds. It features a responsive digital profile card with personal information, projects, and contact details.
 
 ## 🚀 Features
 - React with Vite
 - Fast Refresh (HMR)
 - Modern JavaScript (ES6+)
 - Lightweight and fast
+- Responsive Design
 
 ## 📂 Project Structure
 ```
-my-project/
+Profile-Card/
 │── public/
 │── src/
 │   │── assets/
@@ -29,7 +28,7 @@ my-project/
 Clone the repository:
 
 ```bash
-git clone https://github.com/Poovarasan-Y//Profile-Card
+git clone https://github.com/Poovarasan-Y/Profile-Card
 ```
 
 Go into the project folder:
@@ -77,7 +76,7 @@ npm run preview
 - Vite
 - JavaScript
 - CSS
-
+- FontAwesome Icons
 
 ## 👨‍💻 Author
 Poovarasan Yuvaraj 
@@ -85,7 +84,3 @@ GitHub: https://github.com/Poovarasan-Y
 
 ## 📜 License
 This project is open source and available under the MIT License.
-=======
-# Profile-Card
-"Responsive digital profile card built with React and Vite, featuring personal information, projects, and contact details."
->>>>>>> b6a1e053901485623268c30a8b138af83ab1bfda
