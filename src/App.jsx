@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 function App() {
   const profileData = {
     name: 'Poovarasan Yuvaraj',
@@ -16,6 +17,11 @@ function App() {
       { name: 'GitHub', url: 'https://github.com/Poovarasan-Y', icon: <FontAwesomeIcon icon={faGithub} /> },
        { name: 'Instagram', url: 'https://www.instagram.com/poovarasan.___', icon: <FontAwesomeIcon icon={faInstagram} /> },
       { name: 'Email', url: 'mailto:poovarasanyuvaraj094@gmail.com', icon: <FontAwesomeIcon icon={faEnvelope} /> },
+      {
+  name: 'Portfolio',
+  url: 'https://poovarasan-y.github.io/Poovarasan-Portfolio/',
+  icon: <FontAwesomeIcon icon={faGlobe} />
+},
     ],
     projects: [
       { name: 'Project 1', url: '#' },
